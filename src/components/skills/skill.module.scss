@@ -1,0 +1,46 @@
+.skill {
+    h1 {
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        margin-bottom: 40px;
+    }
+
+    &_cards {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1447px) {
+    .skill {
+        margin-top: 350px;
+
+        h1 {
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media screen and (min-width: 541px) and (max-width: 800px) {
+    .skill {
+        margin-top: 250px;
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .skill {
+        margin-top: 150px;
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 0;
+        }
+    }
+}

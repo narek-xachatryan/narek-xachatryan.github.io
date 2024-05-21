@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;400;600;800&display=swap');
+
+.about {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  column-gap: 200px;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Urbanist', sans-serif;
+  
+  &_text {
+    max-width: 650px;
+    font-family: 'Urbanist', sans-serif;
+    
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 150%;
+      margin-top: 0;
+    }
+
+    h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+  }
+
+  &_buttons {
+    display: flex;
+    column-gap: 25px;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .about {
+    display: grid;
+    padding: 0 20px;
+    box-sizing: border-box;
+
+    &_text {
+      margin: 20px 0;
+
+      p {
+        font-size: 16px;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+    }
+
+    &_buttons {
+      display: contents;
+      margin-left: 20px;
+      margin-right: 20px;
+
+      a {
+        margin: 0 auto;
+        margin-bottom: 20px;
+      }
+    }
+
+    &_image {
+      text-align: center;
+      margin-top: 5px;
+      width: 100%;
+
+      img {
+        width: 90%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1448px) {
+  .about {
+    &_image {
+      margin-top: 40px;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .aboutButton {
+    width: 100%;
+  }
+}

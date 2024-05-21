@@ -1,0 +1,112 @@
+.navbar {
+    height: 90px;
+    max-width: 1400px;
+    margin: 0 auto;
+
+    button {
+        border: none;
+    }
+
+    #responsive-navbar-nav {
+        // margin-left: 435px;
+        justify-content: flex-end;
+        column-gap: 100px;
+
+        .navbar-nav {
+            // margin-left: 100px;
+
+            .nav-link {
+                color: #0D0D0D;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 18px;
+
+                &:hover {
+                    color: #6246EA;
+                }
+            }
+        }
+
+        li {
+            list-style: none;
+
+            a {
+                cursor: pointer;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 18px;
+                color: #0D0D0D;
+                transition: 0.2s;
+
+                &:hover {
+                    color: #6246EA;
+                }
+            }
+        }
+    }
+
+    .navbar-brand {
+        img:nth-child(2) {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 1240px) {
+    .navbar {
+        #responsive-navbar-nav {
+            margin-left: 0;
+        }
+    }
+
+    .navbar-expand-lg {
+        .navbar-collapse {
+            justify-content: flex-end;
+        }
+    }
+
+    .name {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar {
+        .navbar-brand {
+            img:nth-child(2) {
+                margin-left: 19px;
+                display: block;
+            }
+
+            img:nth-child(1) {
+                display: none;
+            }
+        }
+
+        #responsive-navbar-nav {
+            margin-left: 0;
+            background: #fff;
+            padding: 35px 0 0 35px;
+            box-sizing: border-box;
+
+            .navbar-nav {
+                margin-bottom: 30px;
+
+                .nav-link {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .navbar-toggler {
+            span {
+                width: 24px;
+                margin-right: 9px;
+                background-image: url("../../../public/images/burger-menu.svg");
+            }
+        }
+
+
+    }
+}

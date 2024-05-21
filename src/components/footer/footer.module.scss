@@ -1,0 +1,15 @@
+.footer {
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(269.64deg, #4B30CD 0.26%, #AB78FD 99.66%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &_p {
+        color: #fff;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
