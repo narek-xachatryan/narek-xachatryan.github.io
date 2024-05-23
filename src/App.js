@@ -5,7 +5,7 @@ import { About } from './components/about/About.jsx';
 import { Skills } from './components/skills/Skills.jsx';
 import { Project } from './components/project/Project.jsx';
 import { Contact } from './components/contact/Contact.jsx';
-
+ 
 function App() {
   return (
     <div>
