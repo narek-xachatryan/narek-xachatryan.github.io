@@ -1,6 +1,7 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import { menuItem } from '../../constants';
+import Scene from "../ThreeDText/Scene";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./header.scss";
@@ -15,12 +16,10 @@ export const Header = () => {
                 <div className={styles.name}>
                     <b> 
                         <i>
-                        Narek Khachatryan
+                            <Scene />
                         </i> 
                     </b> 
                  </div>
-                    {/* <img src="/icons/logo-desktop.svg" alt="" />
-                    <img src="/icons/logo-mb.svg" alt="" className={styles.logoMb} /> */}
                 </Nav.Link>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
