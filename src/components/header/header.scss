@@ -8,13 +8,10 @@
     }
 
     #responsive-navbar-nav {
-        // margin-left: 435px;
         justify-content: flex-end;
         column-gap: 100px;
 
         .navbar-nav {
-            // margin-left: 100px;
-
             .nav-link {
                 color: #0D0D0D;
                 font-style: normal;
@@ -23,7 +20,7 @@
                 line-height: 18px;
 
                 &:hover {
-                    color: #6246EA;
+                    color: #0090ff;
                 }
             }
         }
@@ -40,7 +37,7 @@
                 transition: 0.2s;
 
                 &:hover {
-                    color: #6246EA;
+                    color: #0090ff;
                 }
             }
         }

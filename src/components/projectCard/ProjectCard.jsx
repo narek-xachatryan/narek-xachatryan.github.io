@@ -10,8 +10,9 @@ export const ProjectCard = ({ chosenProject }) => {
         ethermail: 1,
         nordicVelo: 2,
         coolCat: 3,
-        pebble: 4,
-        wiNit: 5,
+        cryptoPool: 4,
+        hearst: 5,
+        recrout: 6
     };
 
     return (
@@ -23,10 +24,11 @@ export const ProjectCard = ({ chosenProject }) => {
                     <div className={styles.mobile_image} >
                         <img className={chosenProject === indices["daoMaker"] ? styles.d_block : styles.d_none} src={projectDetails[indices["daoMaker"]].src} alt="" />
                         <img className={chosenProject === indices["coolCat"] ? styles.d_block : styles.d_none} src={projectDetails[indices["coolCat"]].src} alt="" />
-                        <img className={chosenProject === indices["pebble"] ? styles.d_block : styles.d_none} src={projectDetails[indices["pebble"]].src} alt="" />
-                        <img className={chosenProject === indices["wiNit"] ? styles.d_block : styles.d_none} src={projectDetails[indices["wiNit"]].src} alt="" />
+                        <img className={chosenProject === indices["cryptoPool"] ? styles.d_block : styles.d_none} src={projectDetails[indices["cryptoPool"]].src} alt="" />
                         <img className={chosenProject === indices["ethermail"] ? styles.d_block : styles.d_none} src={projectDetails[indices["ethermail"]].src} alt="" />
                         <img className={chosenProject === indices["nordicVelo"] ? styles.d_block : styles.d_none} src={projectDetails[indices["nordicVelo"]].src} alt="" />
+                        <img className={chosenProject === indices["hearst"] ? styles.d_block : styles.d_none} src={projectDetails[indices["nordicVelo"]].src} alt="" />
+                            <img className={chosenProject === indices["recrout"] ? styles.d_block : styles.d_none} src={projectDetails[indices["nordicVelo"]].src} alt="" />
                     </div>
                     <p>
                         {details.description}
@@ -57,10 +59,11 @@ export const ProjectCard = ({ chosenProject }) => {
                 <div className={styles.project_card_image}>
                     <img className={chosenProject === indices["daoMaker"] ? styles.d_block : styles.d_none} src={projectDetails[indices["daoMaker"]].src} alt="" />
                     <img className={chosenProject === indices["coolCat"] ? styles.d_block : styles.d_none} src={projectDetails[indices["coolCat"]].src} alt="" />
-                    <img className={chosenProject === indices["pebble"] ? styles.d_block : styles.d_none} src={projectDetails[indices["pebble"]].src} alt="" />
-                    <img className={chosenProject === indices["wiNit"] ? styles.d_block : styles.d_none} src={projectDetails[indices["wiNit"]].src} alt="" />
+                    <img className={chosenProject === indices["cryptoPool"] ? styles.d_block : styles.d_none} src={projectDetails[indices["cryptoPool"]].src} alt="" />
                     <img className={chosenProject === indices["ethermail"] ? styles.d_block : styles.d_none} src={projectDetails[indices["ethermail"]].src} alt="" />
                     <img className={chosenProject === indices["nordicVelo"] ? styles.d_block : styles.d_none} src={projectDetails[indices["nordicVelo"]].src} alt="" />
+                    <img className={chosenProject === indices["hearst"] ? styles.d_block : styles.d_none} src={projectDetails[indices["hearst"]].src} alt="" />
+                    <img className={chosenProject === indices["recrout"] ? styles.d_block : styles.d_none} src={projectDetails[indices["recrout"]].src} alt="" />
                 </div>
             </div>
         </div>

@@ -50,7 +50,7 @@
 
 #hover_bg_purple {
     &:before {
-        background: rgba(#6246EA, .3);
+        background: linear-gradient(269.64deg, rgb(75, 48, 205) 0.26%, rgb(120, 253, 125) 99.66%);
     }
 }
 
@@ -75,13 +75,12 @@
 .cvButton {
     &:hover {
         background: linear-gradient(269.64deg, #4b30cd 0.26%, #78fd7d 99.66%) !important;
-        // border: 2.5px solid #8C75FD !important;
     }
 }
 
 .portfolioButton {
     &:hover {
-        background: #F1EEFF !important;
+        background: linear-gradient(269.64deg, #4b30cd 0.26%, #78fd7d 99.66%) !important;
     }
 }
 
@@ -119,7 +118,6 @@
     .cvButton {
         &:hover {
             background: linear-gradient(269.64deg, #4b30cd 0.26%, #78fd7d 99.66%) !important;
-            // border: 2.5px solid #6246EA !important;
         }
     }
 

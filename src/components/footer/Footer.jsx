@@ -1,9 +1,8 @@
 import styles from './footer.module.scss';
 
-export const Footer = () => {
-  return (
+export const Footer = () => 
     <section className={styles.footer}>
-      <p className={styles.footer_p}>© 2022. All rights reserved.</p>
+      <p className={styles.footer_p}>
+        © {new Date().getFullYear()}. All rights reserved.
+      </p>
     </section>
-  );
-}

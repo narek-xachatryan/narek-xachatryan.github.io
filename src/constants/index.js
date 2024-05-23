@@ -70,21 +70,30 @@ export const projectDetails = [
         src: "images/projects/coolcat.jpg"
     },
     {
-        title: "Pebble",
-        about: "Start GettingPaid to Save & Spend",
-        description: "Pebble is a fintech startup offering the first financial product where users are paid to save, spend, and send money — all in one balance. You can pay, track, and manage all your bills in one place. No more paying transfer fees or having to log in to multiple websites.",
-        challenges: "Connecting all external services from scratch was the challenge but I worked on the backend logic to have an efficient financial system built on top of the Blockchain.",
-        role: "Full-Stack Developer",
-        websiteHref: "", // Old url https://www.pebble.us/
-        src: "images/projects/pebble.jpg"
+        title: "CryptoPool",
+        about: "",
+        description: "CryptoPool is a tokenomics-based On-Off Ramp Solution that allows users to buy and sell cryptocurrencies directly while supporting several tokens for DEXs, NFTs & marketplaces on major chains.",
+        challenges: "Added new features. Bug-fixing on the front-end, which I conducted, was the challenging aspect of working on a project on Personalized Home Health Tests and Professional Coaching for Optimal Health.",
+        role: "Frontend Developer",
+        websiteHref: "https://www.cryptopool.money/",
+        src: "images/projects/crypto-pool.webp"
     },
     {
-        title: "Winit",
+        title: "Hearst",
         about: "Personalized Home Health Tests for Your Optimal Health",
-        description: "WINIT is an optimal health clinic providing clients with doctor-recommended, home lab tests, professional coaching, and food and symptom tracking software.",
-        challenges: "Bug-fixing on the front-end and back-end, which I conducted, was the challenging aspect of working on a project on Personalized Home Health Tests and Professional Coaching for Optimal Health.",
+        description: "Hearst is an innovative platform that revolutionizes the concept of mining servers by bridging the gap between server owners and users seeking computing power. It serves as a decentralized marketplace where clients can offer their mining servers for rent, while users have the opportunity to utilize these servers for various purposes in exchange for monetary compensation.",
+        challenges: "Added new features. Bug-fixing on the front-end and back-end, which I conducted, was the challenging aspect of working on a project on Personalized Home Health Tests and Professional Coaching for Optimal Health.",
         role: "Full-Stack Developer",
-        websiteHref: "https://winitclinic.com/",
-        src: "images/projects/winit.jpg"
+        websiteHref: "https://hearst-corporation-fe.vercel.app/",
+        src: "images/projects/hearst.webp"
+    },
+    {
+        title: "Recrout",
+        about: "",
+        description: "Recrout's innovative HR technology helps you automate the labor-intensive application and selection process. No more cumbersome, repetitive tasks, such as endless CV and cover letter screening. It's the easiest-to-use and competency-driven recruitment system that helps you predict the best matches based on soft skills.",
+        challenges: "Added new features. Worked on old features. Made new version of website from scratch.",
+        role: "Frontend Developer",
+        websiteHref: "https://recrout.com/",
+        src: "images/projects/recrout.webp"
     },
 ];
