@@ -27,8 +27,8 @@ export const ProjectCard = ({ chosenProject }) => {
                         <img className={chosenProject === indices["cryptoPool"] ? styles.d_block : styles.d_none} src={projectDetails[indices["cryptoPool"]].src} alt="" />
                         <img className={chosenProject === indices["ethermail"] ? styles.d_block : styles.d_none} src={projectDetails[indices["ethermail"]].src} alt="" />
                         <img className={chosenProject === indices["nordicVelo"] ? styles.d_block : styles.d_none} src={projectDetails[indices["nordicVelo"]].src} alt="" />
-                        <img className={chosenProject === indices["hearst"] ? styles.d_block : styles.d_none} src={projectDetails[indices["nordicVelo"]].src} alt="" />
-                            <img className={chosenProject === indices["recrout"] ? styles.d_block : styles.d_none} src={projectDetails[indices["nordicVelo"]].src} alt="" />
+                        <img className={chosenProject === indices["hearst"] ? styles.d_block : styles.d_none} src={projectDetails[indices["hearst"]].src} alt="" />
+                        <img className={chosenProject === indices["recrout"] ? styles.d_block : styles.d_none} src={projectDetails[indices["recrout"]].src} alt="" />
                     </div>
                     <p>
                         {details.description}
