@@ -20,7 +20,7 @@ export const About = () =>
                     color="#fff"
                     background='linear-gradient(269.64deg, #4b30cd 0.26%, #78fd7d 99.66%)'
                     // borderColor='#6246EA'
-                    href='/files/Narek_software.pdf'
+                    href='/files/Narek_resume.pdf'
                     src={'/icons/download.svg'}
                     isDownload={true}
                     hoverDetails={"cvButton"} />
