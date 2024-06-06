@@ -35,7 +35,7 @@ export const skills = [
 export const projectDetails = [
     {
         title: "Forbes",
-        about: "Reimagining Email for Web3",
+        about: "",
         description: "Forbes is an American business magazine founded by B. C. Forbes in 1917 and owned by Hong Kong-based investment group Integrated Whale Media Investments since 2014. Its chairperson and editor-in-chief is Steve Forbes, and its CEO is Mike Federle. It is based in Jersey City, New Jersey. Competitors in the national business magazine category include Fortune and Bloomberg Businessweek.",
         challenges: "Added new features. Bug-fixing on the front-end, which I conducted, was the challenging aspect of working on a project on Personalized Home Health Tests and Professional Coaching for Optimal Health.",
         role: "Full-Stack Developer",
