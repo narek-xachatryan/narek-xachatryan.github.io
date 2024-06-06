@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;600;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@100;600;800&display=swap");
 
 .project_card {
   font-style: normal;
@@ -19,7 +19,7 @@
   &_title {
     font-size: 32px;
     font-weight: 700;
-    font-family: 'Urbanist', sans-serif;
+    font-family: "Urbanist", sans-serif;
   }
 
   &_about {
@@ -48,7 +48,7 @@
     justify-content: center;
     line-height: 150%;
     letter-spacing: 0.1px;
-    font-family: 'Urbanist', sans-serif;
+    font-family: "Urbanist", sans-serif;
     align-items: center;
 
     .d_none {
@@ -63,8 +63,10 @@
       img {
         width: 700px;
         border-radius: 40px;
-        filter: drop-shadow(0px 102px 41px rgba(0, 0, 0, 0.01)) drop-shadow(0px 57px 34px rgba(0, 0, 0, 0.03))
-          drop-shadow(0px 26px 26px rgba(0, 0, 0, 0.04)) drop-shadow(0px 6px 14px rgba(0, 0, 0, 0.05))
+        filter: drop-shadow(0px 102px 41px rgba(0, 0, 0, 0.01))
+          drop-shadow(0px 57px 34px rgba(0, 0, 0, 0.03))
+          drop-shadow(0px 26px 26px rgba(0, 0, 0, 0.04))
+          drop-shadow(0px 6px 14px rgba(0, 0, 0, 0.05))
           drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.05));
       }
     }
@@ -87,7 +89,8 @@
       }
 
       img {
-        filter: invert(31%) sepia(100%) saturate(7470%) hue-rotate(181deg) brightness(98%) contrast(101%);
+        filter: invert(31%) sepia(100%) saturate(7470%) hue-rotate(181deg)
+          brightness(98%) contrast(101%);
       }
     }
 
@@ -101,8 +104,9 @@
       img {
         border-radius: 40px;
         width: 100%;
-        box-shadow: 0px 102px 41px rgba(0, 0, 0, 0.01), 0px 57px 34px rgba(0, 0, 0, 0.03),
-          0px 26px 26px rgba(0, 0, 0, 0.04), 0px 6px 14px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+        box-shadow: 0px 102px 41px rgba(0, 0, 0, 0.01),
+          0px 57px 34px rgba(0, 0, 0, 0.03), 0px 26px 26px rgba(0, 0, 0, 0.04),
+          0px 6px 14px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
       }
     }
   }
@@ -137,7 +141,7 @@
 
     &_about {
       font-size: 12px;
-        margin-top: 0;
+      margin-top: 0;
     }
 
     &_content {
@@ -177,4 +181,11 @@
       width: 100% !important;
     }
   }
-} 
+}
+
+@media only screen and (min-width: 1501px) {
+  .d_block {
+    display: block;
+    min-height: 490px;
+  }
+}
