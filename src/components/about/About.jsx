@@ -19,7 +19,7 @@ export const About = () => (
           text="Download CV"
           color="#fff"
           background="linear-gradient(269.64deg, #4b30cd 0.26%, #78fd7d 99.66%)"
-          href="/files/Narek_resume.pdf"
+          href="/files/Narek-cv.pdf"
           src={"/icons/download.svg"}
           isDownload={true}
           hoverDetails={"cvButton"}
@@ -30,7 +30,7 @@ export const About = () => (
           color="#000"
           background="#fff"
           borderColor="#000"
-          href="https://ik.imagekit.io/d7ildaprs/Narek_resume.pdf"
+          href="https://ik.imagekit.io/d7ildaprs/Narek-cv.pdf"
           target="_blank"
           hoverEffect={"purple"}
           hoverDetails={"portfolioButton"}
