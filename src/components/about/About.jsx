@@ -30,7 +30,7 @@ export const About = () => (
           color="#000"
           background="#fff"
           borderColor="#000"
-          href="https://ik.imagekit.io/d7ildaprs/Narek-cv.pdf"
+          href="/files/Narek-cv.pdf"
           target="_blank"
           hoverEffect={"purple"}
           hoverDetails={"portfolioButton"}
