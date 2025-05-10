@@ -36,14 +36,14 @@ export const Contact = () => {
     };
 
     const validate = () => {
-  console.log(22222, form.current); return
-  if (!message || !email || !(/\S+@\S+\.\S+/).test(email)) {
-            validateMessage(message);
-            validateEmail(email);
-        } else {
-            sendEmail();
-            setIsDisabled(false);
-        }
+//   console.log(22222, form.current); return
+//   if (!message || !email || !(/\S+@\S+\.\S+/).test(email)) {
+//             validateMessage(message);
+//             validateEmail(email);
+//         } else {
+//             sendEmail();
+//             setIsDisabled(false);
+//         }
     };
 
     useEffect(() => {
@@ -104,7 +104,8 @@ export const Contact = () => {
                         isDownload={false}
                         hoverDetails={"cvButton"}
                         target={'blank'}
-                        onClick={sendEmail}
+                        // onClick={sendEmail}
+                        href={`mailto:${env.email}`}
                     />
                     }
                     {isDisabled &&

@@ -27,6 +27,13 @@ export const Button = ({
     setIsClick(false);
   }, 500);
 
+  const handleClick = (e) => {
+    setIsClick(true);
+    if (onClick) {
+      onClick(e);
+    }
+  };
+
   return (
     <a
       href={href}
@@ -40,10 +47,7 @@ export const Button = ({
       style={buttonStyles}
       download={isDownload}
       target={target}
-      onClick={(e) => {
-        setIsClick(true); 
-        onClick(e);
-      }}
+      onClick={handleClick}
     >
       <span>{text}</span>
       {src && <img src={src} alt='' />}

@@ -7,23 +7,26 @@ export const menuItem = [
 
 export const skillsFrontEnd = [
   { title: "React.js", src: "icons/reactJs.svg" },
+  { title: "React for TV", src: "icons/react-tv.png" },
+  { title: "React Native", src: "icons/react-native.svg" },
   { title: "Angular", src: "icons/angular.svg" },
   { title: "Vue.js", src: "icons/vue.svg" },
-  { title: "React Native", src: "icons/react-native.svg" },
 ];
 
 export const skillsBackEnd = [
+  { title: "Golang", src: "icons/golang.png" },
   { title: "Node.js", src: "icons/node.svg" },
   { title: "REST API", src: "icons/rest.svg" },
-  { title: "GraphQL", src: "icons/graphQl.svg" },
   { title: "ASP.NET Core", src: "icons/asp.svg" },
   { title: "Laravel", src: "icons/laravel-icon.png" },
+  { title: "Docker", src: "icons/docker.webp" },
 ];
 
 export const skillsDatabase = [
   { title: "MySQL", src: "icons/mysql.svg" },
   { title: "PostgreSQL", src: "icons/postgres.svg" },
   { title: "Mongo DB", src: "icons/mongo.svg" },
+  { title: "GraphQL", src: "icons/graphQl.svg" },
 ];
 
 export const skills = [

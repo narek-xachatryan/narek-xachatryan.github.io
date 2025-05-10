@@ -1,4 +1,3 @@
-import { env } from '../../env.js';
 import { Button } from '../button/Button.jsx';
 
 import styles from './hero.module.scss';

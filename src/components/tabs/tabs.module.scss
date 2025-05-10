@@ -13,6 +13,7 @@
     border-bottom: 4px solid #0090ff;
     position: absolute;
     transition: left 0.7s;
+    pointer-events: none;
   }
 
   .border {
@@ -21,7 +22,8 @@
     border-left: 4px solid  #0090ff;
     position: absolute;
     transition: top 0.7s;
-    background: rgb(12 106 253 / 5%)
+    background: rgb(12 106 253 / 5%);
+    pointer-events: none;
   }
 
   .active {
@@ -29,11 +31,15 @@
     transition-delay: 0.4s;
     border-left: 4px solid #bfbfbf;
     transition: color 0.7s;
+    position: relative;
+    z-index: 1;
   }
 
   .deActive {
     color: #bfbfbf;
     border-left: 4px solid #bfbfbf;
+    position: relative;
+    z-index: 1;
   }
 
   .deActive,
@@ -49,6 +55,10 @@
     padding-left: 30px;
     cursor: pointer;
     box-sizing: border-box;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
   }
 }
 
@@ -56,6 +66,14 @@
   .tabs {
     display: flex;
     margin: 0 auto;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
 
     .active {
       border-left: 0px solid #bfbfbf;
@@ -69,17 +87,18 @@
       background: none;
     }
 
-        .deActive,
-        .active,
-        .border_mobile {
-            text-align: center;
-            padding: 0;
-            justify-content: center;
-            width: 90px;
-            font-size: 12px;
-            align-items: end;
-            height: 50px;
-        }
+    .deActive,
+    .active,
+    .border_mobile {
+      text-align: center;
+      padding: 0;
+      justify-content: center;
+      width: 90px;
+      font-size: 12px;
+      align-items: end;
+      height: 50px;
+      flex-shrink: 0;
+    }
 
     .border {
       display: none;
