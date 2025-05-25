@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.e78c4ee6.css",
+    "main.js": "/portfolio/static/js/main.b73dbb68.js",
+    "static/js/206.4644f2ac.chunk.js": "/portfolio/static/js/206.4644f2ac.chunk.js",
+    "static/media/hero_background_image.webp": "/portfolio/static/media/hero_background_image.362cf9e3796d180f34a6.webp",
+    "index.html": "/portfolio/index.html",
+    "static/media/burger-menu.svg": "/portfolio/static/media/burger-menu.213a2ecd091cf2d74cd9.svg"
+  },
+  "entrypoints": [
+    "static/css/main.e78c4ee6.css",
+    "static/js/main.b73dbb68.js"
+  ]
+}
