@@ -99,13 +99,13 @@ export const Contact = () => {
                         color="#fff"
                         background='linear-gradient(269.64deg, #4b30cd 0.26%, #78fd7d 99.66%)'
                         // borderColor='linear-gradient(269.64deg, #4b30cd 0.26%, #78fd7d 99.66%)'
-                        // href={`https://mail.google.com/mail/?extsrc=mailto&url=mailto%3A%3Fto%3D${env.email}%26subject%3DMessage%2520from: %2520${email}%26body%3D${message}`}
+                        href={`https://mail.google.com/mail/?extsrc=mailto&url=mailto%3A%3Fto%3D${env.email}%26subject%3DMessage%2520from: %2520${email}%26body%3D${message}`}
                         src={"/images/send.svg"}
                         isDownload={false}
                         hoverDetails={"cvButton"}
                         target={'blank'}
                         // onClick={sendEmail}
-                        href={`mailto:${env.email}`}
+                        // href={`mailto:${env.email}`}
                     />
                     }
                     {isDisabled &&
