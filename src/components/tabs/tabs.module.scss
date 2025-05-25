@@ -24,6 +24,7 @@
     transition: top 0.7s;
     background: rgb(12 106 253 / 5%);
     pointer-events: none;
+    z-index: 11;
   }
 
   .active {
@@ -106,6 +107,7 @@
 
     .border_mobile {
       display: block;
+      z-index: 11;
     }
   }
 }
